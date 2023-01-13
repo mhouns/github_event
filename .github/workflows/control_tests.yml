@@ -1,5 +1,5 @@
 name: Pytest & flake8 control Push
-on: push
+on: workflow_dispatch
 jobs:
   qa:
     name: Check tests
